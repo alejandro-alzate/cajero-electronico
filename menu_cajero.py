@@ -1,14 +1,14 @@
-<<<<<<< HEAD
+
 import os
 saldo=3000000
-=======
+
 def menu_inicio():
     while True:
         opcion = int(input("Menu_inicio...\n1.reqistrar \n2.ingresar \n3. salir"))
 
         if opcion == 3:
             break
->>>>>>> 23a7ad6615be919260e31ffeccfd7b9e19371fbe
+
 
 def menu():
     while True:
