@@ -12,7 +12,7 @@ def actualizar():
 			Menu principal
 			--------------
 			1. Iniciar sesion
-			2.
+			2. 
 			""")
 	return estado
 
