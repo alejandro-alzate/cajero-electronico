@@ -1,7 +1,7 @@
 """
 data.py
-Objectivo:
-Carga el archivo de inicio de sesion en memoria.
+Objectivos:
+Carga / Guarda el archivo de inicio de sesion en memoria.
 
 Interfaz:
 cargarDatos():None
@@ -22,7 +22,6 @@ import json
 data = []
 config = {
 	"path": "storage/login.json",
-	"name": "login"
 }
 
 def cargarDatos():
@@ -49,4 +48,4 @@ def conseguirDatos():
 def establecerDatos(contenido):
 	#global data
 	#data = contenido
-	print("esta funcion esta deshabilitada")
+	print("esta funcion esta deshabilitada por el momento")
