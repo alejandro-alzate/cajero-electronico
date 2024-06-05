@@ -37,7 +37,7 @@ def menu():
             break
 
 
-
+menu()
 
 
 def cambiar_clave():
@@ -97,4 +97,3 @@ if __name__ == "__main__":
   main()
 
 #que pa mi codigo que?
-menu()
