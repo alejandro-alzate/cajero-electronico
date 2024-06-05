@@ -1,6 +1,6 @@
 import util
 import os
-saldo=3000000
+
 
 def menu_inicio():
     while True:
@@ -11,6 +11,7 @@ def menu_inicio():
 
 
 def menu():
+    saldo=3000000    
     while True:
         opcion = int(input("Menu...\n1. Consultar saldo\n2. Retirar saldo\n3. Consignar\n4. Cambiar clave\n5. Salir\n"))
         #os.system('cls')
@@ -27,6 +28,7 @@ def menu():
                 print("La cantidad debe ser mayor a 0")
             else:
                 saldo -= cantidad
+                print(f"su nuevo saldo es {saldo}")
 
             
         
@@ -34,8 +36,7 @@ def menu():
             print("Cerrando Sesion...")
             break
 
-def conseguirSaldo():
-    return saldo
+
 
 
 #que pa mi codigo que?

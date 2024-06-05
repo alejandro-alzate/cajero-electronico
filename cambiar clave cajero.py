@@ -1,7 +1,7 @@
 def cambiar_clave():
   """Función para cambiar la clave del usuario."""
 
-  # Simular la consulta del saldo actual
+  
 
 
   # Solicitar la clave actual
