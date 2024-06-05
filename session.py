@@ -30,7 +30,7 @@ def cambiarClave(nombre, claveAntigua, claveNueva):
 			return True
 	return False
 
-def bloquearUsuario(bloqueo):
+def bloquearUsuario(nombre, bloqueo):
 	#Nos aseguramos de tener los datos al dia
 	data.cargarDatos()
 
