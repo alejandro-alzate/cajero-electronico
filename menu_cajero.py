@@ -19,8 +19,7 @@ def menu():
         
         if opcion == 1:
             print(f"Su saldo actual es: ${saldo}")
-
-        if opcion == 2:
+        elif opcion == 2:
             cantidad = float(input("Ingresa la cantidad a retirar"))
             if cantidad > saldo:
                 print("No tienes suficiente saldo")
@@ -29,6 +28,15 @@ def menu():
             else:
                 saldo -= cantidad
                 print(f"su nuevo saldo es {saldo}")
+        elif opcion == 3:
+            cantidad = float(input("Ingresa la cantidad a consignar: "))
+            if cantidad <= 0:
+                print("La cantidad debe ser mayor a 0")
+            else:
+                saldo += cantidad
+                print(f"Su nuevo saldo es: ${saldo}")
+        else:
+            print("Opción no válida")
 
             
         
