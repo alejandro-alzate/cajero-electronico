@@ -26,8 +26,7 @@ def cambiar_clave():
   # Simular la actualización de la clave
   print("Clave actualizada exitosamente.")
 
-
-#esta es una modificacion
+ 
 
 # Función principal para iniciar el programa
 def main():
