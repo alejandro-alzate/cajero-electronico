@@ -3,7 +3,8 @@
 Un pequeño cajero electronico automatico imaginario para praticar la colaboracion con codigo versionado
 
 ## Estandards de interfaz
-cada pieza que conforma este programa deberian tener las siguientes funciones:
+cada pieza que conforma este programa deberian tener las siguientes funciones
+son opcionales pero extremadamente recomendadas:
 - `iniciar()` --> haz lo necesario para inciar tu modulo aqui
 - `cerrar()` --> cuando el programa va a cerrar esta funcion se va a llamar en tu modulo para guardar cambios no guardados
 
@@ -20,13 +21,13 @@ Aqui se tiene las tareas de cada colaborador en el equipo:
 	- cash.py --> Consultar
 
 - Johan Castro:
+	- session.py --> Cambiar clave
 
 - Sebastian Aristizabal:
 	- cash.py --> Consignar
 
 - Alejandro Alzate:
 	- session.py --> Iniciar sesion
-	- session.py --> Cambiar clave
 	- main.py --> Interfaz entre todos los componentes
 	- main.py --> Orquestrar el flujo del programa
 	- Mantenedor
