@@ -10,4 +10,7 @@ import menu
 import cash
 #import
 
+
 data.cargarDatos()
+
+print(cash.consultarSaldo("alejo"))
