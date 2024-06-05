@@ -21,7 +21,7 @@ def menu():
             print(f"Su saldo actual es: ${saldo}")
 
         if opcion == 2:
-            cantidad = float(input("Ingresa la cantidad a retirar"))
+            cantidad = int(input("Ingresa la cantidad a retirar "))
             if cantidad > saldo:
                 print("No tienes suficiente saldo")
             elif cantidad <= 0:
@@ -29,16 +29,37 @@ def menu():
             else:
                 saldo -= cantidad
                 print(f"su nuevo saldo es {saldo}")
-
+        if opcion == 4:
+            cambiar_clave()
             
         
         if opcion == 5:
             print("Cerrando Sesion...")
             break
 
+def cambiar_clave():
+
+  # Solicitar la clave actual
+  clave_actual = input("Ingrese su clave actual: ")
+
+  # Validar la clave actual
+  if clave_actual != "1234":
+    print("Clave incorrecta. Intente nuevamente.")
+    return
+
+  # Solicitar la nueva clave
+  nueva_clave = input("Ingrese su nueva clave: ")
+
+  # Solicitar confirmación de la nueva clave
+  nueva_clave_confirmada = input("Confirme su nueva clave: ")
+
+  # Validar la confirmación de la clave
+  if nueva_clave != nueva_clave_confirmada:
+    print("Las claves no coinciden. Intente nuevamente.")
+    return
+
+  # Simular la actualización de la clave
+  print("Clave actualizada exitosamente.")
 
 menu()
 
-
-
-#que pa mi codigo que?
