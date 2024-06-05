@@ -1,6 +1,6 @@
 import util
 import os
-
+import session
 
 def menu_inicio():
     while True:
@@ -9,6 +9,19 @@ def menu_inicio():
         if opcion == 3:
             break
 
+        usuario = input("Ingrese un nombre de usuario ")
+        clave = input("Ingrese su clave ")
+        resultado = session.iniciarSesion(usuario, clave)
+        if resultado == True:
+            print("Inicio de sesion correcta")
+        else:
+            print("Inicio de sesion fallida")
+        
+        
+        
+        
+        
+            
 
 def menu():
     saldo=3000000    
