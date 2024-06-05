@@ -28,6 +28,7 @@ def menu():
                 print("La cantidad debe ser mayor a 0")
             else:
                 saldo -= cantidad
+                print(f"su nuevo saldo es {saldo}")
 
             
         
@@ -35,8 +36,7 @@ def menu():
             print("Cerrando Sesion...")
             break
 
-def conseguirSaldo():
-    return saldo
+
 
 
 #que pa mi codigo que?
