@@ -1,3 +1,4 @@
+print("data.py IMPORTADO")
 import data
 
 def iniciarSesion(nombre, clave):
@@ -10,8 +11,7 @@ def iniciarSesion(nombre, clave):
 	#Buscamos el usuario y confirmamos que
 	#La clave sea la correcta
 	for usuario in datos:
-		if usuario["user"] == nombre
-		and usuario["pass"] == clave:
+		if usuario["user"] == nombre and usuario["pass"] == clave:
 			return True
 	return False
 
@@ -25,8 +25,7 @@ def cambiarClave(nombre, claveAntigua, claveNueva):
 	#Buscamos el usuario y confirmamos que
 	#La clave sea la correcta
 	for usuario in datos:
-		if usuario["user"] == nombre
-		and usuario["pass"] == claveAntigua:
+		if usuario["user"] == nombre and usuario["pass"] == claveAntigua:
 			usuario["pass"] == claveNueva
 			return True
 	return False

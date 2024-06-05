@@ -9,11 +9,6 @@ import util
 import menu
 import cash
 import session
-#import
-
-sesion_actual = ""
-
-data.cargarDatos()
 
 menu.iniciar()
 

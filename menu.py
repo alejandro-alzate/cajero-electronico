@@ -1,12 +1,20 @@
+print("menu.py IMPORTADO")
 import util
 
-
+estado = ""
 
 def iniciar():
-	pass
+	print("menu.py INICIANDO")
 
 def actualizar():
-	pass
+	if estado == "inicio":
+		print("""
+			Menu principal
+			--------------
+			1. Iniciar sesion
+			2.
+			""")
+	return estado
 
 def cerrar():
 	pass
