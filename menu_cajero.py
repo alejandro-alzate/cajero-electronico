@@ -1,4 +1,4 @@
-
+import util
 import os
 saldo=3000000
 
@@ -13,7 +13,8 @@ def menu_inicio():
 def menu():
     while True:
         opcion = int(input("Menu...\n1. Consultar saldo\n2. Retirar saldo\n3. Consignar\n4. Cambiar clave\n5. Salir\n"))
-        os.system('cls')
+        #os.system('cls')
+        util.limpiarPantalla()
         
         if opcion == 1:
             print(f"Su saldo actual es: ${saldo}")
