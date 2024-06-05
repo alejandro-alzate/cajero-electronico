@@ -1,0 +1,52 @@
+[
+    {
+        "user": "kj",
+        "last": 1709764923,
+        "pass": "88888888",
+        "lock": true
+    },
+    {
+        "user": "hj",
+        "pass": "400400500",
+        "lock": false,
+        "last": 1710357983,
+        "cash": 9999999999
+    },
+    {
+        "lock": false,
+        "last": 1709769339,
+        "pass": "123123123",
+        "user": "alejo",
+        "cash": 100000000,
+        "card": 1651632185
+    },
+    {
+
+        "lock": false,
+        "last": 1709769339,
+        "pass": "112269",
+        "user": "kt",
+        "cash": 500000000,
+        "card": 1651656885
+    },
+    {
+
+        "lock": false,
+        "last": 1709769339,
+        "pass": "123",
+        "user": "juan",
+        "cash": 500000000,
+        "card": 546546065
+    },
+    {
+        "user": "1",
+        "last": 1709767041,
+        "pass": "123123123",
+        "lock": false
+    },
+    {
+        "lock": true,
+        "pass": "123123123",
+        "user": "2"
+    }
+]
