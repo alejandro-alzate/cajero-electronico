@@ -30,4 +30,15 @@ def cambiarClave(nombre, claveAntigua, claveNueva):
 			return True
 	return False
 
-def bloquearUsuario()
+def bloquearUsuario(bloqueo):
+	#Nos aseguramos de tener los datos al dia
+	data.cargarDatos()
+
+	#Tomamos una copia de los datos
+	datos = data.conseguirDatos()
+
+	#Buscamos el usuario y confirmamos que
+	#La clave sea la correcta
+	for usuario in datos:
+		if usuario["user"] == nombre:
+			usuario["lock"] = bloqueo
