@@ -34,7 +34,7 @@ def menu():
             print(f"Su saldo actual es: ${saldo}")
 
         if opcion == 2:
-            cantidad = int(input("Ingresa la cantidad a retirar "))
+            cantidad = int(input("Ingresa la cantidad a retirar 1"))
             if cantidad > saldo:
                 print("No tienes suficiente saldo")
             elif cantidad <= 0:
@@ -56,7 +56,7 @@ def cambiar_clave():
   clave_actual = input("Ingrese su clave actual: ")
 
   # Validar la clave actual
-  if clave_actual != "1234":
+  if clave_actual != "claveAntigua":
     print("Clave incorrecta. Intente nuevamente.")
     return
 
