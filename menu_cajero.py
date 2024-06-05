@@ -24,5 +24,8 @@ def menu():
             print("Cerrando Sesion...")
             break
 
+def conseguirSaldo():
+    return saldo
+
 
 menu()
