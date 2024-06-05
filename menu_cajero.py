@@ -37,7 +37,8 @@ def menu():
             break
 
 
+menu()
+
 
 
 #que pa mi codigo que?
-menu()
