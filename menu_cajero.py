@@ -29,6 +29,8 @@ def menu():
             else:
                 saldo -= cantidad
                 print(f"su nuevo saldo es {saldo}")
+        if opcion == 3:
+            consignar()
         if opcion == 4:
             cambiar_clave()
             
@@ -60,6 +62,26 @@ def cambiar_clave():
 
   # Simular la actualización de la clave
   print("Clave actualizada exitosamente.")
+
+def consignar():
+    saldo=3000000
+    cantidad= int(input("Cuanto quiere consignar? $"))
+    cuenta= int(input("Cuenta a consignar "))
+    tipo=int(input("Tipo de cuenta: \n1. Ahorros\n2. Corriente\n"))
+    if tipo==1:
+        tipo= "Ahorros"
+    elif tipo==2:
+        tipo= "Corriente"
+
+
+    if cantidad > saldo:
+        print("No tienes suficiente saldo")
+    elif cantidad <= 0:
+        print("La cantidad debe ser mayor a 0")
+    else:
+        saldo -= cantidad
+        print(f"Consignacion realizada...!\nCuenta: {cuenta}\nTipo: {tipo}\nSu nuevo saldo es ${saldo}\n")
+        return
 
 menu()
 
