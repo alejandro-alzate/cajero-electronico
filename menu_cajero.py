@@ -21,7 +21,7 @@ def menu():
             print(f"Su saldo actual es: ${saldo}")
 
         if opcion == 2:
-            cantidad = float(input("Ingresa la cantidad a retirar"))
+            cantidad = int(input("Ingresa la cantidad a retirar $"))
             if cantidad > saldo:
                 print("No tienes suficiente saldo")
             elif cantidad <= 0:
@@ -29,22 +29,15 @@ def menu():
             else:
                 saldo -= cantidad
                 print(f"su nuevo saldo es {saldo}")
-
+        if opcion == 4:
+            cambiar_clave()
             
         
         if opcion == 5:
             print("Cerrando Sesion...")
             break
 
-
-menu()
-
-
 def cambiar_clave():
-  """Función para cambiar la clave del usuario."""
-
-  # Simular la consulta del saldo actual
-
 
   # Solicitar la clave actual
   clave_actual = input("Ingrese su clave actual: ")
@@ -68,32 +61,5 @@ def cambiar_clave():
   # Simular la actualización de la clave
   print("Clave actualizada exitosamente.")
 
- 
+menu()
 
-# Función principal para iniciar el programa
-def main():
-  """Función principal para ejecutar el simulador del cajero automático."""
-
-  print("Bienvenido al simulador de cajero automático.")
-
-  # Presentar las opciones del menú
-  print("\nSeleccione una opción:")
-  print("1. Cambiar clave")
-  print("2. Salir")
-
-  # Obtener la opción seleccionada
-  opcion = input("Opción: ")
-
-  # Evaluar la opción seleccionada
-  if opcion == "1":
-    cambiar_clave()
-  elif opcion == "2":
-    print("Gracias por usar el simulador. ¡Hasta luego!")
-  else:
-    print("Opción inválida. Intente nuevamente.")
-
-# Ejecutar la función principal
-if __name__ == "__main__":
-  main()
-
-#que pa mi codigo que?
