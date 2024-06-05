@@ -14,19 +14,19 @@ Aqui se tiene las tareas de cada colaborador en el equipo:
 	- menu.py --> Interfaz de usuario
 
 - Juan Esteban:
-	- session.py --> Iniciar sesion
-	- session.py --> Cambiar clave
+	- cash.py --> Retirar
 
 - Miguel Grisales:
 	- cash.py --> Consultar
 
 - Johan Castro:
-	- cash.py --> Retirar
 
 - Sebastian Aristizabal:
 	- cash.py --> Consignar
 
 - Alejandro Alzate:
+	- session.py --> Iniciar sesion
+	- session.py --> Cambiar clave
 	- main.py --> Interfaz entre todos los componentes
 	- main.py --> Orquestrar el flujo del programa
 	- Mantenedor
