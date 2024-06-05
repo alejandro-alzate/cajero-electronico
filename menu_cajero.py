@@ -21,7 +21,7 @@ def menu():
             print(f"Su saldo actual es: ${saldo}")
 
         if opcion == 2:
-            cantidad = int(input("Ingresa la cantidad a retirar $"))
+            cantidad = int(input("Ingresa la cantidad a retirar "))
             if cantidad > saldo:
                 print("No tienes suficiente saldo")
             elif cantidad <= 0:

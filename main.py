@@ -14,3 +14,8 @@ import session
 sesion_actual = ""
 
 data.cargarDatos()
+
+menu.iniciar()
+
+while True:
+	estado = menu.actualizar()
