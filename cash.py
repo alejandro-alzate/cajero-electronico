@@ -1,3 +1,7 @@
 """
-Se especta la siguientes funciones
+cash.py
 """
+
+import data
+
+data.cargarDatos()
