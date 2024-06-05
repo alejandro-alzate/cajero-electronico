@@ -29,3 +29,5 @@ def cambiarClave(nombre, claveAntigua, claveNueva):
 			usuario["pass"] == claveNueva
 			return True
 	return False
+
+def bloquearUsuario()

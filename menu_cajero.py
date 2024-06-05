@@ -1,6 +1,6 @@
 import util
 import os
-
+import session
 
 def menu_inicio():
     while True:
@@ -9,6 +9,19 @@ def menu_inicio():
         if opcion == 3:
             break
 
+        usuario = input("Ingrese un nombre de usuario ")
+        clave = input("Ingrese su clave ")
+        resultado = session.iniciarSesion(usuario, clave)
+        if resultado == True:
+            print("Inicio de sesion correcta")
+        else:
+            print("Inicio de sesion fallida")
+        
+        
+        
+        
+        
+            
 
 def menu():
     saldo=3000000    
@@ -21,7 +34,7 @@ def menu():
             print(f"Su saldo actual es: ${saldo}")
 
         if opcion == 2:
-            cantidad = int(input("Ingresa la cantidad a retirar "))
+            cantidad = int(input("Ingresa la cantidad a retirar 1"))
             if cantidad > saldo:
                 print("No tienes suficiente saldo")
             elif cantidad <= 0:
@@ -45,7 +58,7 @@ def cambiar_clave():
   clave_actual = input("Ingrese su clave actual: ")
 
   # Validar la clave actual
-  if clave_actual != "1234":
+  if clave_actual != "claveAntigua":
     print("Clave incorrecta. Intente nuevamente.")
     return
 
