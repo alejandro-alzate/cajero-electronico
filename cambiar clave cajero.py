@@ -2,7 +2,7 @@ def cambiar_clave():
   """Función para cambiar la clave del usuario."""
 
   # Simular la consulta del saldo actual
-#   saldo_actual = 1000
+
 
   # Solicitar la clave actual
   clave_actual = input("Ingrese su clave actual: ")
@@ -26,8 +26,7 @@ def cambiar_clave():
   # Simular la actualización de la clave
   print("Clave actualizada exitosamente.")
 
-  # Mostrar el saldo actual como confirmación
-#   print(f"Su saldo actual es de: ${saldo_actual}")
+
 #esta es una modificacion
 
 # Función principal para iniciar el programa
