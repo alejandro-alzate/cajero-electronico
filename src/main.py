@@ -10,7 +10,8 @@ import menu
 import cash
 import session
 
-menu.iniciar()
 
-while True:
-	estado = menu.actualizar()
+# menu.iniciar()
+
+# while True:
+# 	estado = menu.actualizar()
