@@ -1,24 +1,42 @@
 """
 util.py
-Utilidades de uso generico para uso comun
+Módulo que contiene utilidades de uso general para tareas comunes.
 
-limpiarPantalla():None
-limpia el contenido del terminal
+Funciones disponibles:
+- limpiarPantalla(): None
+  Limpia el contenido del terminal según la configuración establecida en 'conf.py'.
 
-leerArchivoCompleto(String archivo):String Contenido
-Lee el archivo "archivo" y retorna su contenido
+- esperar(segundos: Union[int, float]): None
+  Pausa la ejecución del programa durante el número especificado de segundos.
 
-escribirArchivoCompleto(String archivo, String datos):None
-Escribe el archivo "archivo" con el contenido dado en datos
+- leerArchivoCompleto(archivo: str) -> str:
+  Lee el contenido completo del archivo especificado y lo retorna como una cadena de texto.
+
+- escribirArchivoCompleto(archivo: str, datos: Union[str, bytes]) -> None:
+  Escribe el contenido proporcionado en el archivo especificado. 
+  Si los datos son de tipo str, se codifican como 'utf-8' antes de escribirlos.
+
+  Args:
+    archivo (str): Ruta del archivo donde se escribirán los datos.
+    datos (Union[str, bytes]): Contenido a escribir en el archivo.
+
+- colorearSimple(texto: str, color: str) -> str:
+  Devuelve el texto dado con el formato de color especificado.
+
+- colorear(texto: str, *colores_modificadores: str) -> str:
+  Devuelve el texto dado con los modificadores de color especificados aplicados.
 """
+
 import platform
 import warnings
+import time
 import conf
 import os
-
 if conf.reportarImportaciones: print("util.py IMPORTADO")
 
-def limpiarPantalla():
+
+#Control de flujo
+def limpiarPantalla() -> None:
 	if conf.modoLimpiarPantalla == "externo":
 		if platform.system() == "Windows":
 			os.system("cls")
@@ -33,19 +51,34 @@ def limpiarPantalla():
 			'modoLimpiarPantalla' en 'conf.py'
 			""")
 
-
-#Todavia no se hace checkeo antes de leer o escribir archivos
-def leerArchivoCompleto(archivo):
-	with open(archivo) as file:
-		content = file.read()
-	return content
-
-def escribirArchivoCompleto(archivo, datos):
-	f = open(archivo, "")
-	f.write(datos)
-	f.close()
+def esperar(segundos: Union[int, float]) -> None:
+	time.sleep(segundos)
 
 
+
+#Escritura/Lectura de archivo
+def leerArchivoCompleto(archivo: str) -> str:
+	if os.path.exists(archivo):
+		with open(archivo) as file:
+			content = file.read()
+		return content
+	else:
+		raise FileNotFoundError(f"El archivo '{archivo}' no existe")
+
+def escribirArchivoCompleto(archivo: str, datos: Union[str, bytes]) -> None:
+	if isinstance(datos, str):
+		datos = datos.encode('utf-8')
+
+	if isinstance(datos, bytes):
+		with open(archivo, "wb") as f:
+			f.write(datos)
+	else:
+		# Si los datos no son de tipo bytes ni de tipo str, lanzamos un error
+		raise TypeError("Los datos deben ser de tipo 'str' o 'bytes'")
+
+
+
+#Formatear salida de texto:
 colors = {
 	"reset": [0, 0],
 
@@ -146,7 +179,7 @@ colores = {
 	"fondoBlancoBrillante":		[	107,	49	],
 }
 
-def colorearSimple(texto, color):
+def colorearSimple(texto: str, color: str) -> str:
 	if color in colores:
 		abierto, cerrado = colores[color]
 		string = "\033[{0}m{1}\033[{2}m"
@@ -154,8 +187,7 @@ def colorearSimple(texto, color):
 		#return f"\033[{abierto}m{texto}\033[{cerrado}m"#\033[0m"
 	return texto
 
-
-def colorear(texto, *colores_modificadores):
+def colorear(texto: str, *colores_modificadores: str) -> str:
 	secuencias_abrir = []
 	secuencias_cerrar = []
 
