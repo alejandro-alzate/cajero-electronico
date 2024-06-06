@@ -1,4 +1,4 @@
-import session
+import src.session
 
 def cambiar_clave():
   """Función para cambiar la clave del usuario."""

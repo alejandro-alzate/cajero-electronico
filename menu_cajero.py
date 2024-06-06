@@ -1,6 +1,6 @@
 import util
 import os
-import session
+import src.session
 
 def menu_inicio():
     while True:
