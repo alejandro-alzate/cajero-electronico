@@ -19,6 +19,7 @@ Establece los datos dados por el parametro nuevosDatos
 print("data.py IMPORTADO")
 import util
 import json
+import conf
 
 data = []
 config = {
@@ -27,7 +28,7 @@ config = {
 
 def cargarDatos():
 	try:
-		contenido = util.leerArchivoCompleto(config["path"])
+		contenido = util.leerArchivoCompleto(conf.rutaBaseDeDatos)
 		global data
 		data = json.loads(contenido)
 	except Exception as e:
@@ -37,7 +38,7 @@ def cargarDatos():
 
 def guardarDatos():
 	try:
-		util.escribirArchivoCompleto(config["path"], json.dumps(data))
+		util.escribirArchivoCompleto(conf.rutaBaseDeDatos, json.dumps(data))
 	except Exception as e:
 		return e
 	else:

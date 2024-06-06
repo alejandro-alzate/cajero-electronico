@@ -3,17 +3,21 @@ import util
 
 estado = ""
 
+def menuInicio():
+	print("""
+		Menu principal
+		--------------
+		1. Iniciar sesion
+		2. 
+		""")
+	input()
+
 def iniciar():
 	print("menu.py INICIANDO")
 
 def actualizar():
 	if estado == "inicio":
-		print("""
-			Menu principal
-			--------------
-			1. Iniciar sesion
-			2. 
-			""")
+		menuInicio
 	return estado
 
 def cerrar():
