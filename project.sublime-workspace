@@ -1,0 +1,1102 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"cla",
+				"claveNueva"
+			],
+			[
+				"dat",
+				"datos"
+			],
+			[
+				"s",
+				"session"
+			],
+			[
+				"escri",
+				"escribirArchivoCompleto"
+			],
+			[
+				"lee",
+				"leerArchivoCompleto"
+			],
+			[
+				"con",
+				"config"
+			],
+			[
+				"ty",
+				"try\tTry/Except/Else"
+			],
+			[
+				"me",
+				"mensaje"
+			],
+			[
+				"fac",
+				"factorialResultado"
+			],
+			[
+				"ra",
+				"random()"
+			],
+			[
+				"suma",
+				"sumaTramposa"
+			],
+			[
+				"pr",
+				"println"
+			],
+			[
+				"p",
+				"public"
+			],
+			[
+				"freac",
+				"I-ForEach"
+			],
+			[
+				"parseI",
+				"parseInteger()"
+			],
+			[
+				"im",
+				"import"
+			],
+			[
+				"pu",
+				"public"
+			],
+			[
+				"id",
+				"idProducto"
+			],
+			[
+				"preo",
+				"promedio"
+			],
+			[
+				"de",
+				"detalle_factura"
+			],
+			[
+				"whe",
+				"where"
+			],
+			[
+				"a",
+				"acumulador"
+			],
+			[
+				"pa",
+				"parseInt"
+			],
+			[
+				"reve",
+				"reversado"
+			],
+			[
+				"for",
+				"format"
+			],
+			[
+				"re",
+				"resultado"
+			],
+			[
+				"fi",
+				"fibonacci"
+			],
+			[
+				"in",
+				"int"
+			],
+			[
+				"lis",
+				"lista_original"
+			],
+			[
+				"ac",
+				"ancho"
+			],
+			[
+				"A",
+				"acumulador"
+			],
+			[
+				"cas",
+				"casos"
+			],
+			[
+				"es",
+				"esMinuscula"
+			],
+			[
+				"mat",
+				"matches()"
+			],
+			[
+				"contra",
+				"contraseña"
+			],
+			[
+				"nu",
+				"numero"
+			],
+			[
+				"nume",
+				"numero"
+			],
+			[
+				"num",
+				"numero2"
+			],
+			[
+				"añ",
+				"años"
+			],
+			[
+				"ca",
+				"calificaciones"
+			],
+			[
+				"n",
+				"numeroDelMes"
+			],
+			[
+				"sw",
+				"switch"
+			],
+			[
+				"st",
+				"static"
+			],
+			[
+				"std",
+				"stdio.h"
+			],
+			[
+				"inc",
+				"include"
+			],
+			[
+				"m",
+				"Materia"
+			],
+			[
+				"pri",
+				"printf"
+			],
+			[
+				"ec",
+				"except"
+			],
+			[
+				"li",
+				"limpiarPantalla"
+			],
+			[
+				"fina",
+				"finalizarSesion"
+			],
+			[
+				"e",
+				"entorno"
+			],
+			[
+				"se",
+				"seleccion"
+			],
+			[
+				"da",
+				"datosUsuario"
+			],
+			[
+				"pre",
+				"preguntarSerialTarjeta"
+			],
+			[
+				"seria",
+				"serialTarjeta"
+			],
+			[
+				"inicar",
+				"iniciarConTarjeta"
+			],
+			[
+				"el",
+				"elif"
+			],
+			[
+				"gua",
+				"gurdarBaseDeDatos"
+			],
+			[
+				"usua",
+				"usuarios"
+			],
+			[
+				"lim",
+				"limiteUsuario"
+			],
+			[
+				"limi",
+				"limiteSistema"
+			],
+			[
+				"ma",
+				"retiroMaximo"
+			],
+			[
+				"lii",
+				"limiteUsuario"
+			],
+			[
+				"res",
+				"resultado"
+			],
+			[
+				"ru",
+				"ruta_base_de_datos"
+			],
+			[
+				"usu",
+				"usuario"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"req",
+				"request"
+			],
+			[
+				"r",
+				"router"
+			],
+			[
+				"fuc",
+				"function"
+			],
+			[
+				"cl",
+				"clients"
+			],
+			[
+				"Con",
+				"contraseña"
+			],
+			[
+				"ema",
+				"emailRecuperar"
+			],
+			[
+				"en",
+				"enumChar"
+			],
+			[
+				"fo",
+				"format"
+			],
+			[
+				"t",
+				"texto"
+			],
+			[
+				"ui",
+				"uint8_t"
+			],
+			[
+				"xv",
+				"xviii"
+			],
+			[
+				"v",
+				"void"
+			],
+			[
+				"no",
+				"nombreTrabajador"
+			],
+			[
+				"val",
+				"valorTotalHorasExtras"
+			],
+			[
+				"tra",
+				"trabajadas"
+			],
+			[
+				"va",
+				"valorTotalHorasExtras"
+			],
+			[
+				"nob",
+				"nombreTrabajador"
+			],
+			[
+				"sue",
+				"sueldoBasico"
+			],
+			[
+				"apo",
+				"aportePension"
+			],
+			[
+				"P",
+				"Pensión"
+			],
+			[
+				"nom",
+				"nombreArticulo"
+			],
+			[
+				"cua",
+				"cuadradoSuma"
+			],
+			[
+				"cu",
+				"cuboProducto"
+			],
+			[
+				"th",
+				"throw"
+			],
+			[
+				"te",
+				"tempetaturaBase"
+			],
+			[
+				"pl",
+				"public"
+			],
+			[
+				"arg",
+				"argumentos"
+			],
+			[
+				"str",
+				"String"
+			],
+			[
+				"pc",
+				"public"
+			],
+			[
+				"us",
+				"usuario"
+			],
+			[
+				"car",
+				"cargarBaseDeDatos"
+			],
+			[
+				"ex",
+				"existeUsuario"
+			],
+			[
+				"bas",
+				"base_de_datos"
+			],
+			[
+				"pro",
+				"propiedades"
+			],
+			[
+				"err",
+				"errores"
+			],
+			[
+				"cate",
+				"categorias"
+			],
+			[
+				"cons",
+				"const"
+			],
+			[
+				"Cate",
+				"Categoria"
+			],
+			[
+				"Pr",
+				"Propiedad"
+			],
+			[
+				"prop",
+				"propiedades"
+			],
+			[
+				"f",
+				"foreignKey"
+			],
+			[
+				"c",
+				"concurrently"
+			],
+			[
+				"co",
+				"console"
+			],
+			[
+				"C",
+				"Categoria"
+			],
+			[
+				"des",
+				"description"
+			],
+			[
+				"eje",
+				"ejercicio5"
+			],
+			[
+				"S",
+				"System"
+			],
+			[
+				"ejer",
+				"ejercicio2"
+			],
+			[
+				"D",
+				"DB_HOST"
+			],
+			[
+				"fro",
+				"formularioRegistro"
+			],
+			[
+				"pass",
+				"pass-repeat"
+			],
+			[
+				"pas",
+				"password"
+			],
+			[
+				"pos",
+				"postcss"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C Single File.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Java/Ant.sublime-build",
+					""
+				],
+				[
+					"Packages/Java/JavaC.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Java/JavaC.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Lua/Lua.sublime-build",
+					""
+				],
+				[
+					"Packages/Lua Love/LuaLove.sublime-build",
+					""
+				],
+				[
+					"Packages/Lua Love/LuaLove.sublime-build",
+					"LuaJIT Run File"
+				],
+				[
+					"Packages/Lua Love/LuaLove.sublime-build",
+					"Lua Run File"
+				],
+				[
+					"Packages/Lua Love/LuaLove.sublime-build",
+					"ldoc: File"
+				],
+				[
+					"Packages/Lua Love/LuaLove.sublime-build",
+					"ldoc: Project"
+				]
+			],
+			[
+				"Packages/Lua/Lua.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				"Syntax Check"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"merg",
+				"Sublime Merge: Open Repository"
+			],
+			[
+				"preview",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"teta",
+				"Terminus: Open Default Shell in Tab (View)"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"com",
+				"Toggle Comment"
+			],
+			[
+				"java",
+				"Set Syntax: Java"
+			],
+			[
+				"sql",
+				"Set Syntax: SQL"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"",
+				"Color Hint"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"pyt",
+				"Set Syntax: Python"
+			],
+			[
+				"pyth",
+				"Set Syntax: Python"
+			],
+			[
+				"pyht",
+				"Set Syntax: Python"
+			],
+			[
+				"settin",
+				"Preferences: Settings"
+			],
+			[
+				"py",
+				"Set Syntax: Python"
+			],
+			[
+				"comm",
+				"Toggle Comment"
+			],
+			[
+				"syc",
+				"Set Syntax: C"
+			],
+			[
+				"c",
+				"Color Hint"
+			],
+			[
+				"termtab",
+				"Terminus: Open Default Shell in Tab (View)"
+			],
+			[
+				"lua",
+				"Set Syntax: Lua"
+			],
+			[
+				"fola",
+				"Code Folding: Fold All"
+			],
+			[
+				"terta",
+				"Terminus: Open Default Shell in Tab (View)"
+			],
+			[
+				"lov",
+				"Set Syntax: LOVE"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"love",
+				"Set Syntax: LOVE"
+			],
+			[
+				"lint",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"tertab",
+				"Terminus: Open Default Shell in Tab (View)"
+			],
+			[
+				"rei",
+				"JSON Reindent: reindent file or selection"
+			],
+			[
+				"re",
+				"Package Control: Remove Package"
+			],
+			[
+				"teti",
+				"Terminus: Rename Title"
+			],
+			[
+				"fo",
+				"Code Folding: Fold All"
+			],
+			[
+				"term re",
+				"Terminus: Reset"
+			],
+			[
+				"renam",
+				"Terminus: Rename Title"
+			],
+			[
+				"JAVA",
+				"Set Syntax: Java"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"bahs",
+				"Set Syntax: Bash"
+			],
+			[
+				"customi",
+				"UI: Customize Theme"
+			],
+			[
+				"them",
+				"UI: Select Theme"
+			],
+			[
+				"sche",
+				"UI: Select Color Scheme"
+			],
+			[
+				"the",
+				"UI: Select Theme"
+			],
+			[
+				"scheme",
+				"UI: Select Color Scheme"
+			],
+			[
+				"ter",
+				"Terminal: Open in project folder"
+			],
+			[
+				"pug",
+				"Set Syntax: Pug"
+			],
+			[
+				"save",
+				"File: Save All"
+			],
+			[
+				"temr",
+				"Terminal: Open"
+			],
+			[
+				"prefe",
+				"Preferences: Settings"
+			],
+			[
+				"term",
+				"Terminal: Open in project folder"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 136.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/user/Escritorio/git/cajero-electronico",
+		"/home/user/Escritorio/git/cajero-electronico/pruebas",
+		"/home/user/Escritorio/git/cajero-electronico/pruebas/alejandro",
+		"/home/user/Escritorio/git/cajero-electronico/pruebas/johan",
+		"/home/user/Escritorio/git/cajero-electronico/pruebas/juan",
+		"/home/user/Escritorio/git/cajero-electronico/pruebas/miguel",
+		"/home/user/Escritorio/git/cajero-electronico/pruebas/moncada",
+		"/home/user/Escritorio/git/cajero-electronico/pruebas/sebas"
+	],
+	"file_history":
+	[
+		"/media/user/500GB/sena/PYTHON/login.py",
+		"/home/user/Escritorio/git/bab-be-u-master/lib/colr-print.lua",
+		"/home/user/Escritorio/git/cajero-electronico/util.py",
+		"/home/user/Escritorio/git/cajero-electronico/session.py",
+		"/home/user/Escritorio/git/cajero-electronico/storage/login.json",
+		"/home/user/Escritorio/git/cajero-electronico/cash.py",
+		"/home/user/Escritorio/git/cajero-electronico/README.md",
+		"/home/user/Escritorio/git/cajero-electronico/menu.py",
+		"/home/user/Escritorio/git/cajero-electronico/data.py",
+		"/home/user/Escritorio/git/cajero-electronico/main.py",
+		"/home/user/Escritorio/git/cajero-electronico/.gitignore",
+		"/media/user/500GB/sena/BASE DE DATOS/BIENRAIZ/helpers/emails.js",
+		"/media/user/500GB/sena/BASE DE DATOS/BIENRAIZ/controller/usuarioController.js",
+		"/home/user/Escritorio/AFincaRaiz - 22-05-2024/package.json",
+		"/media/user/500GB/sena/BASE DE DATOS/BIENRAIZ/package.json",
+		"/media/user/500GB/sena/BASE DE DATOS/BIENRAIZ/routes/usuarioRoute.js",
+		"/media/user/500GB/sena/JAVA/mayo 30 2024/TallerVectores.java",
+		"/home/user/Documentos/git/Applio/README.md",
+		"/media/user/500GB/sena/JAVA/mayo 30 2024/Vectores.class",
+		"/home/user/Descargas/EHgVLxd9w.ttrm",
+		"/media/user/500GB/sena/JAVA/mayo 23 2024/TallerCiclos.java",
+		"/media/user/500GB/sena/JAVA/mayo 30 2024/Vectores.java",
+		"/media/user/500GB/sena/JAVA/mayo 30 2024/Main.java",
+		"/media/user/500GB/sena/JAVA/mayo 30 2024/Main.class",
+		"/media/user/500GB/sena/JAVA/mayo 30 2024/main.java",
+		"/media/user/500GB/sena/JAVA/mayo 30 2024/Vectores.",
+		"/media/user/500GB/sena/BASE DE DATOS/untitled.java",
+		"/media/user/500GB/sena/BASE DE DATOS/SQLTricks.txt",
+		"/media/user/500GB/sena/BASE DE DATOS/compania/compania_departamento.sql",
+		"/media/user/500GB/sena/BASE DE DATOS/compania/compania_carga_f.sql",
+		"/media/user/500GB/sena/BASE DE DATOS/compania/compania_trabaja_en.sql",
+		"/media/user/500GB/sena/BASE DE DATOS/compania/compania_proyecto.sql",
+		"/media/user/500GB/sena/BASE DE DATOS/compania/compania_localizacion.sql",
+		"/media/user/500GB/sena/BASE DE DATOS/compania/compania_empleado.sql",
+		"/media/user/500GB/sena/BASE DE DATOS/compañia/compañia_departamento.sql",
+		"/media/user/500GB/sena/BASE DE DATOS/compañia/compañia_trabaja_en.sql",
+		"/media/user/500GB/sena/BASE DE DATOS/compañia/compañia_proyecto.sql",
+		"/media/user/500GB/sena/BASE DE DATOS/compañia/compañia_localizacion.sql",
+		"/media/user/500GB/sena/BASE DE DATOS/compañia/compañia_empleado.sql",
+		"/media/user/500GB/sena/BASE DE DATOS/compañia/compañia_carga_f.sql",
+		"/home/user/.config/sublime-text/Packages/User/SQLExec.sublime-settings",
+		"/media/user/500GB/sena/BASE DE DATOS/case.sql",
+		"/media/user/500GB/sena/BASE DE DATOS/datos.sql",
+		"/media/user/500GB/sena/PYTHON/caracter.py",
+		"/home/user/Escritorio/diceChecker.lua",
+		"/home/user/Escritorio/Enlaces-Canva.txt",
+		"/media/user/500GB/sena/JAVA/mayo 15 2024/Main.java",
+		"/media/user/500GB/sena/JAVA/mayo 15 2024/mod/Utils.java",
+		"/media/user/500GB/sena/JAVA/mayo 10 2024/mod/Utils.java",
+		"/media/user/500GB/sena/PYTHON/modificar-lista.py",
+		"/media/user/500GB/sena/PYTHON/historigrama.py",
+		"/media/user/500GB/sena/PYTHON/triangulo.py",
+		"/media/user/500GB/sena/PYTHON/primo-mayor.py",
+		"/media/user/500GB/sena/PYTHON/rectangulo.py",
+		"/media/user/500GB/sena/PYTHON/suma-multip.py",
+		"/media/user/500GB/sena/JAVA/mayo 17 2024/TallerTernarios.java",
+		"/media/user/500GB/sena/JAVA/mayo 17 2024/mod/Utils.java",
+		"/media/user/500GB/sena/JAVA/mayo 8 2024/TallerTernarios.java",
+		"/media/user/500GB/sena/JAVA/mayo 8 2024/taller java i.java",
+		"/media/user/500GB/sena/JAVA/mayo 10 2024/TeoriaDecisiones.class",
+		"/media/user/500GB/sena/JAVA/mayo 10 2024/TeoriaDesiciones.java",
+		"/media/user/500GB/sena/JAVA/mayo 17 2024/TipoNumero.class",
+		"/media/user/500GB/sena/TipoNumero.java",
+		"/media/user/500GB/sena/README.md",
+		"/home/user/Escritorio/may 16 2024/Activity Modal Verbs.md",
+		"/home/user/Escritorio/registros.txt",
+		"/media/user/500GB/sena/JAVA/mayo 16 2024/CasosSwitch.java",
+		"/home/user/Escritorio/lua/luaonc/main.c",
+		"/usr/include/lua.h",
+		"/media/user/ESD-USB/cod.java",
+		"/media/user/500GB/sena/PYTHON/verdurasConCarrito.py",
+		"/media/user/500GB/sena/PYTHON/diccionario1.py",
+		"/media/user/500GB/sena/PYTHON/ejercicio1.py",
+		"/media/user/500GB/sena/PYTHON/login.json",
+		"/home/user/Plantillas/Main.java",
+		"/media/user/500GB/sena/PYTHON/cajero.py",
+		"/home/user/Escritorio/lua/luaonc/Makefile",
+		"/home/user/Escritorio/lua/luaonc/lua/lauxlib.h",
+		"/home/user/Escritorio/lua/luaonc/lua/lua.h",
+		"/home/user/Escritorio/lua/nodemoon/router.lua",
+		"/home/user/Escritorio/lua/nodemoon/main.lua",
+		"/home/user/Escritorio/lua/lua-5.4.6/Makefile",
+		"/home/user/Escritorio/lua/nodemoon/httpHeaders.lua",
+		"/media/user/500GB/sena/BASE DE DATOS/BIENRAIZ/.env",
+		"/media/user/500GB/sena/BASE DE DATOS/BIENRAIZ/views/auth/registro.pug",
+		"/media/user/500GB/sena/BASE DE DATOS/BIENRAIZ/views/auth/recuperar.pug",
+		"/media/user/500GB/sena/BASE DE DATOS/BIENRAIZ/views/auth/login.pug",
+		"/media/user/500GB/sena/BASE DE DATOS/BIENRAIZ/views/auth/entrar.pug",
+		"/media/user/500GB/sena/BASE DE DATOS/BIENRAIZ/views/auth/reiniciarClave.pug",
+		"/media/user/500GB/sena/BASE DE DATOS/BIENRAIZ/config/db.js",
+		"/home/user/.config/sublime-text/Packages/Lua Love/LDoc.sublime-completions",
+		"/media/user/500GB/sena/RECREATIVO/OneLoneCoderNESSeries/Bus.lua",
+		"/media/user/500GB/sena/RECREATIVO/OneLoneCoderNESSeries/olc6502.lua",
+		"/home/user/.config/sublime-text/Packages/Lua Love/LuaLove.sublime-build",
+		"/home/user/.config/sublime-text/Packages/Lua Love/README.md",
+		"/media/user/500GB/sena/RECREATIVO/OneLoneCoderNESSeries/main.c",
+		"/media/user/500GB/sena/RECREATIVO/OneLoneCoderNESSeries/Bus.h",
+		"/media/user/500GB/sena/RECREATIVO/OneLoneCoderNESSeries/Bus.cpp",
+		"/media/user/500GB/sena/RECREATIVO/OneLoneCoderNESSeries/olc6502.h",
+		"/media/user/500GB/sena/JAVA/mayo 8 2024/TallerJava1.class",
+		"/media/user/500GB/sena/JAVA/mayo 8 2024/taller java i simple.java",
+		"/media/user/500GB/sena/JAVA/mayo 8 2024/taller java i.md",
+		"/media/user/500GB/sena/RECREATIVO/OneLoneCoderNESSeries/Bus",
+		"/home/user/Escritorio/doble inner join.sql",
+		"/home/user/Escritorio/BIENRAIZ/webpack.config.js",
+		"/home/user/Escritorio/AFincaRaizOriginal/public/js/mapa.js",
+		"/home/user/Escritorio/BIENRAIZ/public/js/map.js",
+		"/home/user/Escritorio/BIENRAIZ/controller/usuarioController.js",
+		"/home/user/Escritorio/BIENRAIZ/routes/usuarioRoute.js",
+		"/home/user/Escritorio/BIENRAIZ/views/auth/recover.pug",
+		"/home/user/Escritorio/BIENRAIZ/views/auth/confirm.pug",
+		"/home/user/Escritorio/BIENRAIZ/views/auth/register.pug",
+		"/home/user/Escritorio/BIENRAIZ/src/js/map.js",
+		"/home/user/Escritorio/BIENRAIZ/src/map.js",
+		"/home/user/Escritorio/BIENRAIZ/routes/propiedadRouter.js",
+		"/home/user/Escritorio/AFincaRaizOriginal/controller/usuarioController.js",
+		"/home/user/Escritorio/BIENRAIZ/controller/propiedadController.js",
+		"/home/user/Escritorio/BIENRAIZ/views/propiedades/crear.pug",
+		"/home/user/Escritorio/BIENRAIZ/seed/seeder.js",
+		"/home/user/Escritorio/BIENRAIZ/models/index.js",
+		"/home/user/Escritorio/BIENRAIZ/controller/productoController.js",
+		"/home/user/Escritorio/BIENRAIZ/package.json",
+		"/home/user/Escritorio/BIENRAIZ/seed/precios.js",
+		"/home/user/Escritorio/BIENRAIZ/models/Propiedad.js",
+		"/home/user/Escritorio/BIENRAIZ/models/Precio.js",
+		"/home/user/Escritorio/BIENRAIZ/models/Categoria.js",
+		"/home/user/Escritorio/BIENRAIZ/seed/categorias.js",
+		"/home/user/Escritorio/BIENRAIZ/views/templates/mensaje.pug"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"INICIANDO"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 35.0
+	},
+	"input":
+	{
+		"height": 101.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SQLTools Result":
+	{
+		"height": 247.0
+	},
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 216.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.markdown":
+	{
+		"height": 150.0
+	},
+	"output.nodejs":
+	{
+		"height": 126.0
+	},
+	"pinned_build_system": "",
+	"project": "project.sublime-project",
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 239.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
