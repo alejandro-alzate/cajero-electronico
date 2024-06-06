@@ -4,10 +4,10 @@ if conf.reportarImportaciones: print("menu.py IMPORTADO")
 
 estado = "inicio"
 
-menuInicioEnum = {
+menuEstadoEnum = {
 	"consultar": 1,
-	"consignar": 2,
-	"retirar": 3,
+	"retirar": 2,
+	"consignar": 3,
 	"clave": 4,
 	"salir": 5
 }
@@ -15,18 +15,24 @@ menuInicioEnum = {
 def menuInicio():
 	print(f'{util.colorear("Menu principal:", "negrita", "subrayado", "verde")}')
 	print("1. Consultar")
-	print("2. Consignar")
-	print("3. Retirar")
-	print("3. Cambiar clave")
-	print("")
-	seleccion = int(input("Seleccione (1/4): "))
+	print("2. Retirar")
+	print("3. Consignar")
+	print("4. Cambiar clave")
+	print("5. Salir")
+	seleccion = int(input("Seleccione (1/5): "))
+	return seleccion
+
+# def conseguirEstado():
+# 	global estado
+# 	return estado
 
 def iniciar():
 	pass
 
 def actualizar():
+	global estado
 	if estado == "inicio":
-		return menuInicio()
+		estado = menuInicio()
 	return estado
 
 def cerrar():

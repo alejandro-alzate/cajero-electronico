@@ -14,6 +14,9 @@ if conf.reportarImportaciones: print("main.py INICIADO")
 
 
 menu.iniciar()
+menu.actualizar()
 
 while True:
-	estado = menu.actualizar()
+	print(menu.estado)
+	if menu.estado == menu.menuEstadoEnum["salir"]:
+		exit()
