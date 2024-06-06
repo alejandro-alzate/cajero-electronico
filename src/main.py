@@ -9,9 +9,11 @@ import util
 import menu
 import cash
 import session
+import conf
+if conf.reportarImportaciones: print("main.py INICIADO")
 
 
-# menu.iniciar()
+menu.iniciar()
 
-# while True:
-# 	estado = menu.actualizar()
+while True:
+	estado = menu.actualizar()

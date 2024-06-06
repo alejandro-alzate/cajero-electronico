@@ -3,8 +3,9 @@ cash.py
 Objectivo:
 Consultar Retirar y/o Consignar dinero a un usuario
 """
-print("cash.py IMPORTADO")
 import data
+import conf
+if conf.reportarImportaciones: print("cash.py IMPORTADO")
 
 def consultarSaldo(nombre):
 	#Nos aseguramos de tener los datos al dia

@@ -1,5 +1,6 @@
-print("data.py IMPORTADO")
 import data
+import conf
+if conf.reportarImportaciones: print("data.py IMPORTADO")
 
 def iniciarSesion(nombre, clave):
 	#Nos aseguramos de tener los datos al dia

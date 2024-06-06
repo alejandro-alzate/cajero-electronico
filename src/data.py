@@ -16,10 +16,10 @@ Retorna los datos cargados en memoria
 establecerDatos(Array: nuevosDatos):None
 Establece los datos dados por el parametro nuevosDatos
 """
-print("data.py IMPORTADO")
 import util
 import json
 import conf
+if conf.reportarImportaciones: print("data.py IMPORTADO")
 
 data = []
 config = {

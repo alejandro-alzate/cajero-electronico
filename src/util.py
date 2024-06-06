@@ -16,6 +16,7 @@ import warnings
 import conf
 import os
 
+if conf.reportarImportaciones: print("util.py IMPORTADO")
 
 def limpiarPantalla():
 	if conf.modoLimpiarPantalla == "externo":
@@ -145,7 +146,7 @@ colores = {
 	"fondoBlancoBrillante":		[	107,	49	],
 }
 
-def colorear(texto, color):
+def colorearSimple(texto, color):
 	if color in colores:
 		abierto, cerrado = colores[color]
 		string = "\033[{0}m{1}\033[{2}m"
@@ -154,4 +155,17 @@ def colorear(texto, color):
 	return texto
 
 
+def colorear(texto, *colores_modificadores):
+	secuencias_abrir = []
+	secuencias_cerrar = []
 
+	for color in colores_modificadores:
+		if color in colores:
+			abrir, cerrar = colores[color]
+			secuencias_abrir.append(f"\x1b[{abrir}m")
+			secuencias_cerrar.insert(0, f"\x1b[{cerrar}m")  # Añadir al inicio para cerrar en orden inverso
+
+	secuencia_abrir = "".join(secuencias_abrir)
+	secuencia_cerrar = "".join(secuencias_cerrar)
+	
+	return f"{secuencia_abrir}{texto}{secuencia_cerrar}"

@@ -1,23 +1,32 @@
-print("menu.py IMPORTADO")
 import util
+import conf
+if conf.reportarImportaciones: print("menu.py IMPORTADO")
 
-estado = ""
+estado = "inicio"
+
+menuInicioEnum = {
+	"consultar": 1,
+	"consignar": 2,
+	"retirar": 3,
+	"clave": 4,
+	"salir": 5
+}
 
 def menuInicio():
-	print("""
-		Menu principal
-		--------------
-		1. Iniciar sesion
-		2. 
-		""")
-	input()
+	print(f'{util.colorear("Menu principal:", "negrita", "subrayado", "verde")}')
+	print("1. Consultar")
+	print("2. Consignar")
+	print("3. Retirar")
+	print("3. Cambiar clave")
+	print("")
+	seleccion = int(input("Seleccione (1/4): "))
 
 def iniciar():
-	print("menu.py INICIANDO")
+	pass
 
 def actualizar():
 	if estado == "inicio":
-		menuInicio
+		return menuInicio()
 	return estado
 
 def cerrar():
